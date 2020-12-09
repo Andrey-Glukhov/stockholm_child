@@ -41,4 +41,147 @@
 
                     </li>
 
+
+
+<div class="container" >
+        <div class="container_inner default_template_holder clearfix" >
+		<div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
+	Visualizzazione di 5 risultati</p>
+<form class="woocommerce-ordering" method="get">
+	<select name="orderby" class="orderby" aria-label="Ordine negozio">
+					<option value="menu_order"  selected='selected'>Ordinamento predefinito</option>
+					<option value="popularity" >Popolarità</option>
+					<option value="date" >Ordina in base al più recente</option>
+					<option value="price" >Prezzo: dal più economico</option>
+					<option value="price-desc" >Prezzo: dal più caro</option>
+			</select>
+	<input type="hidden" name="paged" value="1" />
+	<input type="hidden" name="post_type" value="product" /></form>
+<ul class="products columns-3 clearfix default">        <li class="product type-product post-412 status-publish first instock product_cat-senza-categoria has-post-thumbnail shipping-taxable purchasable product-type-simple">
+
+                        <div class="top-product-section">
+
+                <a class="product_list_thumb_link" href="http://localhost/wptest5/wordpress/?product=a-vase">
+                    <span class="image-wrapper">
+                    <img width="300" height="300" src="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-300x300.jpg 300w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-100x100.jpg 100w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-600x600.jpg 600w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-150x150.jpg 150w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-768x768.jpg 768w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-1024x1024.jpg 1024w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-550x550.jpg 550w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-500x500.jpg 500w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-1000x1000.jpg 1000w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-700x700.jpg 700w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_.jpg 1100w" sizes="(max-width: 300px) 100vw, 300px" />                    </span>
+                </a>
+
+                <div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-cart-button-inner2"><a href="?add-to-cart=412" data-quantity="1" class="qbutton add-to-cart-button button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="412" data-product_sku="" aria-label="Aggiungi &ldquo;a.vase&rdquo; al tuo carrello" rel="nofollow">Aggiungi al carrello</a></div></div></div>
+            </div>
+
+            <div class="product_info_box">
+	            <span class="product-categories"><a href="http://localhost/wptest5/wordpress/?product_cat=senza-categoria" rel="tag">Senza categoria</a></span>
+                <a href="http://localhost/wptest5/wordpress/?product=a-vase" class="product-category">
+                    <span class="product-title">a.vase</span>
+
+                    
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>480,00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+                </a>
+            </div>
+
+                    </li>
+
+                <li class="product type-product post-426 status-publish outofstock product_cat-senza-categoria has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+
+                        <div class="top-product-section">
+
+                <a class="product_list_thumb_link" href="http://localhost/wptest5/wordpress/?product=a-vase-copia">
+                    <span class="image-wrapper">
+                    <img width="300" height="300" src="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-300x300.jpg 300w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-100x100.jpg 100w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-600x600.jpg 600w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-150x150.jpg 150w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-768x768.jpg 768w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-1024x1024.jpg 1024w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-550x550.jpg 550w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-500x500.jpg 500w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-1000x1000.jpg 1000w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_-700x700.jpg 700w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vase_.jpg 1100w" sizes="(max-width: 300px) 100vw, 300px" />                    </span>
+                </a>
+
+                	<span class="onsale out-of-stock-button"><span>Out of stock</span></span>
+
+            </div>
+
+            <div class="product_info_box">
+	            <span class="product-categories"><a href="http://localhost/wptest5/wordpress/?product_cat=senza-categoria" rel="tag">Senza categoria</a></span>
+                <a href="http://localhost/wptest5/wordpress/?product=a-vase-copia" class="product-category">
+                    <span class="product-title">a.vase (Copia)</span>
+
+                    
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>580,80<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+                </a>
+            </div>
+
+                    </li>
+
+                <li class="product type-product post-414 status-publish last instock product_cat-senza-categoria has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+
+                        <div class="top-product-section">
+
+                <a class="product_list_thumb_link" href="http://localhost/wptest5/wordpress/?product=a-vessel">
+                    <span class="image-wrapper">
+                    <img width="300" height="300" src="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-300x300.jpg 300w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-100x100.jpg 100w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-600x600.jpg 600w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-150x150.jpg 150w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-768x768.jpg 768w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-1024x1024.jpg 1024w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-550x550.jpg 550w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-500x500.jpg 500w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-1000x1000.jpg 1000w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel-700x700.jpg 700w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/a.vassel.jpg 1100w" sizes="(max-width: 300px) 100vw, 300px" />                    </span>
+                </a>
+
+                <div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-cart-button-inner2"><a href="?add-to-cart=414" data-quantity="1" class="qbutton add-to-cart-button button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="414" data-product_sku="" aria-label="Aggiungi &ldquo;a.vessel&rdquo; al tuo carrello" rel="nofollow">Aggiungi al carrello</a></div></div></div>
+            </div>
+
+            <div class="product_info_box">
+	            <span class="product-categories"><a href="http://localhost/wptest5/wordpress/?product_cat=senza-categoria" rel="tag">Senza categoria</a></span>
+                <a href="http://localhost/wptest5/wordpress/?product=a-vessel" class="product-category">
+                    <span class="product-title">a.vessel</span>
+
+                    
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>484,00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+                </a>
+            </div>
+
+                    </li>
+
+                <li class="product type-product post-415 status-publish first instock product_cat-senza-categoria has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+
+                        <div class="top-product-section">
+
+                <a class="product_list_thumb_link" href="http://localhost/wptest5/wordpress/?product=bugia">
+                    <span class="image-wrapper">
+                    <img width="300" height="300" src="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-300x300.jpg 300w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-100x100.jpg 100w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-600x600.jpg 600w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-150x150.jpg 150w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-768x768.jpg 768w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-1024x1024.jpg 1024w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-550x550.jpg 550w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-500x500.jpg 500w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-1000x1000.jpg 1000w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-700x700.jpg 700w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2.jpg 1100w" sizes="(max-width: 300px) 100vw, 300px" />                    </span>
+                </a>
+
+                <div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-cart-button-inner2"><a href="?add-to-cart=415" data-quantity="1" class="qbutton add-to-cart-button button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="415" data-product_sku="" aria-label="Aggiungi &ldquo;bugia&rdquo; al tuo carrello" rel="nofollow">Aggiungi al carrello</a></div></div></div>
+            </div>
+
+            <div class="product_info_box">
+	            <span class="product-categories"><a href="http://localhost/wptest5/wordpress/?product_cat=senza-categoria" rel="tag">Senza categoria</a></span>
+                <a href="http://localhost/wptest5/wordpress/?product=bugia" class="product-category">
+                    <span class="product-title">bugia</span>
+
+                    
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>605,00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+                </a>
+            </div>
+
+                    </li>
+
+                <li class="product type-product post-425 status-publish instock product_cat-senza-categoria has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+
+                        <div class="top-product-section">
+
+                <a class="product_list_thumb_link" href="http://localhost/wptest5/wordpress/?product=bugia-copia">
+                    <span class="image-wrapper">
+                    <img width="300" height="300" src="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-300x300.jpg 300w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-100x100.jpg 100w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-600x600.jpg 600w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-150x150.jpg 150w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-768x768.jpg 768w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-1024x1024.jpg 1024w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-550x550.jpg 550w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-500x500.jpg 500w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-1000x1000.jpg 1000w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2-700x700.jpg 700w, http://localhost/wptest5/wordpress/wp-content/uploads/2018/01/buciaW2.jpg 1100w" sizes="(max-width: 300px) 100vw, 300px" />                    </span>
+                </a>
+
+                <div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-cart-button-inner2"><a href="?add-to-cart=425" data-quantity="1" class="qbutton add-to-cart-button button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="425" data-product_sku="" aria-label="Aggiungi &ldquo;bugia (Copia)&rdquo; al tuo carrello" rel="nofollow">Aggiungi al carrello</a></div></div></div>
+            </div>
+
+            <div class="product_info_box">
+	            <span class="product-categories"><a href="http://localhost/wptest5/wordpress/?product_cat=senza-categoria" rel="tag">Senza categoria</a></span>
+                <a href="http://localhost/wptest5/wordpress/?product=bugia-copia" class="product-category">
+                    <span class="product-title">bugia (Copia)</span>
+
+                    
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>605,00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+                </a>
+            </div>
+
+                    </li>
+
+        </ul>
+	</div>
+</div>
+</div>
+</div>
+	
                 
