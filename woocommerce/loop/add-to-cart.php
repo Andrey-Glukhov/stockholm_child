@@ -21,12 +21,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product;
 
-if ( ! $product->is_in_stock() ) : ?>
-	<span class="out-of-stock-button-child"><span><?php echo apply_filters( 'out_of_stock_add_to_cart_text', esc_html__( 'Soldout', 'stockholm' ) ); ?></span></span>
-	<?php	echo sprintf('<div class="add-to-card-name-child">%s</div>', esc_html($product->get_title()));
+if ( ! $product->is_in_stock() ) : 
+	
+	echo sprintf( '<div class="add-to-cart-shadow"></div><div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-card-name-child">%s</div><div class="out-of-stock-button-child">%s</div></div></div>',
+		esc_html($product->get_title()),
+		apply_filters( 'out_of_stock_add_to_cart_text', esc_html__( 'Soldout', 'stockholm' ) )//,//$product->get_price_html(),
+		//esc_url( $product->add_to_cart_url() ),
+		//esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
+		//esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
+		//isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
+		//esc_html( $product->add_to_cart_text() ),
+		//''
+		);
+	//echo sprintf('<div class="add-to-card-name-child">%s</div>', esc_html($product->get_title()));
  else :
 	echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
-		sprintf( '<div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-card-name-child">%s</div><div class="add-to-card-price-child">%s</div></div></div><div class="add-to-cart-button-inner2"><a href="%s" data-quantity="%s" class="qbutton add-to-cart-button %s" %s>%s</a></div>',
+		sprintf( '<div class="add-to-cart-shadow"></div><div class="add-to-cart-button-outer"><div class="add-to-cart-button-inner"><div class="add-to-card-name-child">%s</div><div class="add-to-card-price-child">%s</div></div></div><div class="add-to-cart-button-inner2"><a href="%s" data-quantity="%s" class="qbutton add-to-cart-button %s" %s>%s</a></div>',
 			esc_html($product->get_title()),
 			$product->get_price_html(),
 			esc_url( $product->add_to_cart_url() ),

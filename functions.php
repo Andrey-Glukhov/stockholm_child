@@ -546,6 +546,7 @@ if ( ! function_exists( 'stockholm_qode_woocommerce_content' ) ) {
 			
 			if ( have_posts() ) {
 				
+		
 				/**
 				 * Hook: woocommerce_before_shop_loop.
 				 *
@@ -564,14 +565,7 @@ if ( ! function_exists( 'stockholm_qode_woocommerce_content' ) ) {
 				if ( wc_get_loop_prop( 'total' ) ) {
 					echo '<div class = "product_flex vc_grid vc_row vc_grid-gutter-5px ">'; //vc_pageable-wrapper vc_hook_hover">';
 					while ( have_posts() ) {
-						// <<< The SED Team 
-						// if ($col_now <= 0) {
-						// 	echo '<div class = product_flex>';
-						// 	$col_now = $col_count-1;
-						// } else {
-						// 	$col_now--;
-						// }
-						// >>>
+					
 						the_post();
 						
 						/**
@@ -582,17 +576,13 @@ if ( ! function_exists( 'stockholm_qode_woocommerce_content' ) ) {
 						do_action( 'woocommerce_shop_loop' );
 						
 						wc_get_template_part( 'content', 'product' );
-						// <<< The SED Team 
-						// if ($col_now <= 0)  {
-						// 	echo '</div>';
-						// }
-						//>>>
+						
 					}
 					echo '</div>';
 				}
 				
 				woocommerce_product_loop_end();
-				
+		
 				/**
 				 * Hook: woocommerce_after_shop_loop.
 				 *
